@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.font-poppins{
+        font-family: "Poppins", serif;    
+}
+:root{
+    --primary-color:rgba(58, 58, 58, 1);
+    --secondary-color:rgba(24, 25, 31, 1);
+    --third-color:rgba(120, 120, 133, 1);
+    --icon-color:rgba(251, 130, 0, 1);
+    --btn-background:rgba(224, 44, 109, 1);
+    --txt-color:rgba(255, 255, 255, 1);
+}
+/* shared style */
+.display-flex{
+    display: flex;
+}
+/* nav section code start here */
+.navbar{
+margin-top: 87px;
+justify-content: space-between;
+}
+.nav-logo{
+font-size: 1.5rem;
+font-weight: bold;
+color: var(--primary-color);
+margin-left: 120px;
+}
+.nav-links{
+margin-right: 24px;
+}
+.nav-links li{
+    list-style: none;
+    margin-right: 24px;
+}
+.nav-links li a{
+font-size: 1rem;
+font-weight: 600;   
+color: var(--primary-color); 
+}
+/* banner section start here */
+.banner-sec{
+    margin-top: 145px;
+    justify-content:  space-around;
+}
+.banner-left{
+max-width: 582px;
+}
+.b-title{
+    font-weight: bold;
+    line-height: 70px;
+    font-size: 3.13rem;
+    color: var(--primary-color);
+}
+.b-des{
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-top: 16px;
+}
+.banner-btn{
+    background: var(--btn-background);
+    color: var(--txt-color);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 10px 24px;
+    outline: 0;
+    border-radius: 41px;
+}
+
+.banner-right{
+background: url(../images/Circle\ design.svg);
+background-size:contain;
+background-repeat: no-repeat;
+}
+.banner-right img{
+  width: 100%;  
+}
